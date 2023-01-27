@@ -12,6 +12,7 @@ python3 main.py
 ```sh
 git clone
 cd app
+python3 -m venv env
 source env/bin/activate
 pip3 install -r requirements.txt
 # For a world population pie chart use:
