@@ -11,8 +11,9 @@ def get_list():
 @app.get('/contact', response_class = HTMLResponse)
 def get_list():
     return """
-        <h1>Hola soy una página.</h1>
-        <p>Soy un párrafo.</p>
+        <h1>Hola Walo soy una página.</h1>
+        <p>Soy un párrafo pequeño.</p>
+        <p>Soy un segundo párrafo.</p>
     """
 
 def run():
